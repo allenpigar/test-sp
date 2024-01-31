@@ -236,69 +236,69 @@
       settings:
         list: true
 - description: null
-    label: "Carpark Details"
-    name: "carpark_details"
-    sort: 190
-    listed: true
-    hasRoute: true
-    showAsTable: false
-    parent: null
-    view: "/views/carpark_details.tpl"
-    content: "/content/carpark_details.yaml"
-    fields:
-      - name: "carpark_image"
-        label: "Carpark Image"
-        description: ""
-        datatype: "images"
-        sort: 0
-        required: false
-        relationship: null
-        settings:
-          list: true
-      - name: "moq_details"
-        label: "moq_details"
-        description: "Content in this field will be overwritten on MOQ updates"
-        datatype: "text"
-        sort: 5
-        required: false
-        settings:
-          list: true
-      - name: "title"
-        label: "Title"
-        description: ""
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-        settings:
-          list: true
-      - name: "carpark_alert"
-        label: "Carpark Alert"
-        description: ""
-        datatype: "wysiwyg_basic"
-        sort: 4
-        required: false
-        relationship: null
-        settings:
-          list: false
-      - name: "description"
-        label: "Description"
-        description: ""
-        datatype: "wysiwyg_basic"
-        sort: 3
-        required: false
-        relationship: null
-        settings:
-          list: true
-      - name: "moq_json"
-        label: "MOQ Json"
-        description: "Do not edit this content - this is automatically updated from AMP periodically"
-        datatype: "textarea"
-        sort: 6
-        required: false
-        relationship: null
-        settings:
-          list: true
+  label: "Carpark Details"
+  name: "carpark_details"
+  sort: 190
+  listed: true
+  hasRoute: true
+  showAsTable: false
+  parent: null
+  view: "/views/carpark_details.tpl"
+  content: "/content/carpark_details.yaml"
+  fields:
+    - name: "carpark_image"
+      label: "Carpark Image"
+      description: ""
+      datatype: "images"
+      sort: 0
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "moq_details"
+      label: "moq_details"
+      description: "Content in this field will be overwritten on MOQ updates"
+      datatype: "text"
+      sort: 5
+      required: false
+      settings:
+        list: true
+    - name: "title"
+      label: "Title"
+      description: ""
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+      settings:
+        list: true
+    - name: "carpark_alert"
+      label: "Carpark Alert"
+      description: ""
+      datatype: "wysiwyg_basic"
+      sort: 4
+      required: false
+      relationship: null
+      settings:
+        list: false
+    - name: "description"
+      label: "Description"
+      description: ""
+      datatype: "wysiwyg_basic"
+      sort: 3
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "moq_json"
+      label: "MOQ Json"
+      description: "Do not edit this content - this is automatically updated from AMP periodically"
+      datatype: "textarea"
+      sort: 6
+      required: false
+      relationship: null
+      settings:
+        list: true
 - description: null
   label: "Country Listing"
   name: "country_listing"
