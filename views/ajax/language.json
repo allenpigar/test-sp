@@ -1,8 +1,0 @@
-{
-    "languageItems":[
-    {{ each dictionary_item as item }}{
-        "{{item.key}}":"{{ item.value }}"
-    }{{ if {item._num} != {item._length} }}, {{ end-if }}
-    {{ end-each }}
-    ]
- } 
