@@ -1,0 +1,323 @@
+- description: null
+  label: "Homepage"
+  name: "homepage"
+  sort: 1
+  listed: true
+  hasRoute: true
+  showAsTable: false
+  parent: null
+  view: "/views/homepage.tpl"
+  content: "/content/homepage.yaml"
+  fields:
+    - name: "title"
+      label: "Lead in Title"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+      settings:
+        options: {}
+    - name: "content"
+      label: "Intro Text"
+      description: null
+      datatype: "wysiwyg_advanced"
+      sort: 2
+      required: null
+      relationship: null
+      settings:
+        options: {}
+    - name: "image"
+      label: "Main Image"
+      description: null
+      datatype: "images"
+      sort: 3
+      required: null
+      relationship: null
+      settings:
+        limit: 1
+        options: {}
+    - name: "featured_item_title"
+      label: "Featured Item Title"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "featured_item_type"
+      label: "Featured Item Type"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "featured_item_description"
+      label: "Featured Item Description"
+      description: ""
+      datatype: "textarea"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "featured_item_image"
+      label: "Featured Item Image"
+      description: ""
+      datatype: "images"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "featured_item_cta"
+      label: "Featured Item CTA"
+      description: ""
+      datatype: "internal_link"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "featured_item_cta_text"
+      label: "Featured Item CTA Text"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "related_home_offers"
+      label: "Related Home Offers"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      settings:
+        list: true
+    - name: "offers_title"
+      label: "Offers Title"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "events_title"
+      label: "Events Title"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "products_title"
+      label: "Products Title"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "related_home_events"
+      label: "Related Home Events"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      settings:
+        list: true
+    - name: "events_cta"
+      label: "Events CTA"
+      description: ""
+      datatype: "internal_link"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "events_cta_text"
+      label: "Events CTA text"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "offers_cta"
+      label: "Offers CTA"
+      description: ""
+      datatype: "internal_link"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "offers_cta_text"
+      label: "Offers CTA text"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "offers_description"
+      label: "Offers Description"
+      description: ""
+      datatype: "textarea"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "events_description"
+      label: "Events Description"
+      description: ""
+      datatype: "textarea"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "product_more_cta"
+      label: "Product More CTA"
+      description: ""
+      datatype: "internal_link"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "product_cta_text"
+      label: "Product CTA text"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "products_description"
+      label: "Products description"
+      description: ""
+      datatype: "textarea"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+- description: ""
+  label: "Home Page Selector"
+  name: "home_page_selector"
+  sort: 935
+  listed: true
+  hasRoute: true
+  showAsTable: false
+  parent: null
+  view: "/views/home_page_selector.tpl"
+  content: "/content/home_page_selector.yaml"
+  fields:
+    - name: "description"
+      label: "Description"
+      description: ""
+      datatype: "textarea"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+- description: null
+    label: "Carpark Details"
+    name: "carpark_details"
+    sort: 190
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/carpark_details.tpl"
+    content: "/content/carpark_details.yaml"
+    fields:
+      - name: "carpark_image"
+        label: "Carpark Image"
+        description: ""
+        datatype: "images"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "moq_details"
+        label: "moq_details"
+        description: "Content in this field will be overwritten on MOQ updates"
+        datatype: "text"
+        sort: 5
+        required: false
+        settings:
+          list: true
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "carpark_alert"
+        label: "Carpark Alert"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "moq_json"
+        label: "MOQ Json"
+        description: "Do not edit this content - this is automatically updated from AMP periodically"
+        datatype: "textarea"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+- description: null
+  label: "Country Listing"
+  name: "country_listing"
+  sort: 184
+  listed: true
+  hasRoute: true
+  showAsTable: false
+  parent: null
+  view: "/views/country_listing.tpl"
+  content: "/content/country_listing.yaml"
+  fields: []
+- description: null
+  label: "State Listing"
+  name: "state_listing"
+  sort: 186
+  listed: true
+  hasRoute: true
+  showAsTable: false
+  parent: null
+  view: "/views/state_listing.tpl"
+  content: "/content/state_listing.yaml"
+  fields: []
